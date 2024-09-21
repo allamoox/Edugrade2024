@@ -8,6 +8,40 @@ Om medelvärdet av sista tre > 25 så skriv ut ”Alarm”
 a.	lös detta med hjälp av tre rullande tre variabler  
 b.	int senaste, int nästsenaste, int tidigaste
 c.	lös med lista istället (alla lagras i lista, räkna på tre sista)
+
 */
 
+int latest =0, secondLatest=0, earliest=0;
+while (true)
+{
+    Console.WriteLine("Skriv Tempratur!");
+    int temp = int.Parse(Console.ReadLine());
 
+    earliest = secondLatest;
+    secondLatest = latest;
+    latest = temp;
+    if (earliest != 0)
+    {
+        int avr = (latest + secondLatest + earliest) / 3;
+        Console.WriteLine();
+        if (avr >25)
+        {
+            Console.WriteLine("Alarm!");
+            Console.Beep();
+            Console.Beep();
+            Thread.Sleep(2000);
+            Console.Beep();
+            Console.Beep();
+            Thread.Sleep(2000);
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.Beep();
+            Console.WriteLine("Alarm!");
+
+        }
+    }
+
+}
