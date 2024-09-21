@@ -9,7 +9,7 @@ a.	lös detta med hjälp av tre rullande tre variabler
 b.	int senaste, int nästsenaste, int tidigaste
 c.	lös med lista istället (alla lagras i lista, räkna på tre sista)
 
-*/
+############################### Solution Without List ###############################
 
 int latest =0, secondLatest=0, earliest=0;
 while (true)
@@ -44,4 +44,23 @@ while (true)
         }
     }
 
+}
+*/
+
+List<int> tempratures = new List<int>();
+while (true)
+{
+    Console.WriteLine("Skriv Tempratur!");
+    int temp = int.Parse(Console.ReadLine());
+    tempratures.Add(temp);
+
+    if (tempratures.Count >=3)
+    {
+        var lastThree = tempratures.Skip(tempratures.Count - 3).Take(3);
+        double avr = lastThree.Average();
+        if (avr > 25)
+        {
+            Console.WriteLine("Alarm!");
+        }
+    }
 }
