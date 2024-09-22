@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 - reverDizer", "08 - reverDizer\08 - reverDizer.csproj", "{D58F113B-C63A-42B4-A0C8-1812FC4E7B99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D58F113B-C63A-42B4-A0C8-1812FC4E7B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D58F113B-C63A-42B4-A0C8-1812FC4E7B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D58F113B-C63A-42B4-A0C8-1812FC4E7B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D58F113B-C63A-42B4-A0C8-1812FC4E7B99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1FED75F-42F4-4303-BAEB-7DEB078F4330}
+	EndGlobalSection
+EndGlobal
