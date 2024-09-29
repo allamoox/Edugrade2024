@@ -1,4 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Vad heter du?");
+Console.WriteLine("Esm maitin ahlak eehhh?");
 string name = Console.ReadLine();
-Console.WriteLine($"Hejsan {name}");
+Console.WriteLine($"Hello {name}");
